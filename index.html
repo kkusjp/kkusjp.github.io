@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal e-portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9ce77e0d75.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <!--Navigation-->
+      <div id="nav">
+        <div id="logo">
+          <a href="#home">Kasun Satharasinghe</a>
+        </div>
+        <div id="icon">
+          <p><i class="fas fa-bars"></i></p>
+        </div>
+        <nav class="navmain">
+          <ul id="main_links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Section: Introduction-->
+      <section id="home">
+        <div id="intro">
+          <h1 class="secintro">Hi! I am <strong>Kasun</strong></h1>
+          <p>
+            I'm a student who loves to build web apps and Windows Apps. I'm
+            currently a second term BIT student at
+            <a href="https://www.rrc.ca/" class="usandschool">River College</a>
+            .
+          </p>
+          <img src="images/img1.JPG" alt="kasun" id="image_intro" />
+        </div>
+      </section>
+      <!--Section: About-->
+      <section id="about" class="about-me">
+        <div id="me">
+          <h2 class="sec_title">Who am I</h2>
+          <p class="sec_subtitle">Web Developer based out of Winnipeg</p>
+          <div class="aboutmebody">
+            <p class="pimg">
+              <img src="images/img2.JPG" alt="kasun2" class="circle_img" />My
+              name is Kasun Satharasinghe, and living in Winnipeg, Canada. I'm
+              currently enrolled in the Business Information Technology program
+              at Red River College. Also, I am graduated with a Bachelor of
+              Applied sciences from the
+              <a href="http://science.sjp.ac.lk/" class="usandschool"
+                >University of Sri Jayewardenepura</a
+              >
+              Sri Lanka. I have work experience related to the retail business
+              and procurement fields in Sri Lanka.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Skills-->
+      <section id="skills" class="skills-i-have">
+        <div id="myskills">
+          <h2 class="sec_title">Skills</h2>
+          <p class="sec_subtitle">What I know</p>
+          <div id="java">
+            <p>
+              Knowledge of working Object-Oriented programming : JAVA, C#, .Net
+              JavaScript
+            </p>
+            <p>Experience in web development with : HTML5/CSS</p>
+            <p>Fundamental knowledge of SQL</p>
+            <p>Completed the Cisco Certified Network Associate course</p>
+          </div>
+          <div id="skillpng">
+            <img src="images/java.png" alt="java" class="skill_png_size" />
+            <img
+              src="images/128px-C_Sharp_wordmark.svg.png"
+              alt="c#"
+              class="skill_png_size"
+            />
+            <img
+              src="images/Microsoft_.NET_logo.png"
+              alt="dotnet"
+              class="skill_png_size"
+            />
+            <img src="images/js.png" alt="js" class="skill_png_size" />
+            <img src="images/html.png" alt="html" class="skill_png_size" />
+            <img src="images/css.png" alt="css" class="skill_png_size" />
+            <img src="images/photoshop.png" alt="ps" class="skill_png_size" />
+          </div>
+        </div>
+      </section>
+      <!--Section: Projects-->
+      <!--Section: Contact-->
+      <section id="contact" class="contact-me">
+        <h2 class="sec_title">Get In Touch!</h2>
+        <p class="sec_subtitle">
+          Hi there, send me a message, I'll get back to you!
+        </p>
+        <div class="container">
+          <form
+            method="post"
+            action="mailto:kasun.satharasinghe@gmail.com"
+            enctype="text/plain"
+            id="contact_form"
+          >
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <div class="error" id="fname_error">
+              Please enter your first name.
+            </div>
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <div class="error" id="lname_error">
+              Please enter your last name.
+            </div>
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email.."
+            />
+            <div class="error" id="email_error">Invalid email</div>
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write something.."
+            ></textarea>
+            <div>
+              <button type="submit" value="Submit form" id="submit">
+                Submit
+              </button>
+              <button type="reset" value="Clear form" id="clear">Clear</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div id="footer">
+          <div id="mylinks">
+            <ul id="myfooter">
+              <li>
+                <a
+                  id="linkedin"
+                  href="https://www.linkedin.com/in/kasun-satharasinghe-b564a5a7/" target="_blank"
+                ><i class="fab fa-linkedin"></i></a
+                >
+              </li>
+              <li>
+                <a id="github" href="https://github.com/kkusjp" target="_blank"><i class="fab fa-github"></i></a
+                >
+              </li>
+              <li>
+                <a id="instagram" href="https://www.instagram.com/kkusjp/" target="_blank"><i class="fab fa-instagram"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="myemail">
+            <p><span>&#169;</span>Kasun Satharasinghe 2020</p>
+            <p>kasun.satharasinghe@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

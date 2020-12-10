@@ -1,0 +1,11 @@
+https://fr.wikipedia.org/wiki/Fichier:Java_Logo.svg
+https://commons.wikimedia.org/wiki/File:C_Sharp_wordmark.svg
+https://commons.wikimedia.org/wiki/File:.NET_Logo.svg
+https://commons.wikimedia.org/wiki/File:Javascript-shield.svg
+https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+https://commons.wikimedia.org/wiki/File:CSS.3.svg
+https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CS4_icon.svg
+
+AND
+
+Font Awesome : https://fontawesome.com/
